@@ -1,6 +1,6 @@
 import { HomeModule } from '@modules'
 import { NextPage } from 'next'
 
-const Home: NextPage = () => <HomeModule />
+const HomePage: NextPage = () => <HomeModule />
 
-export default Home
+export default HomePage

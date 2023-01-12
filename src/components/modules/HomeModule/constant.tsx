@@ -231,36 +231,42 @@ export const EXPERIENCE_DESCRIPTION: ExperienceDescriptionProps = {
 
 export const PROJECT_DATA: ProjectCardProps[] = [
   {
+    identify: 'educare',
     title: 'Website EDUCARE 2023',
     description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects.`,
     children: <></>,
     foto: ['/assets/images/educare-landing.png'],
   },
   {
+    identify: 'educare',
     title: 'Website EDUCARE 2023',
     description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects.`,
     children: <></>,
     foto: ['/assets/images/educare-landing.png'],
   },
   {
+    identify: 'educare',
     title: 'Website EDUCARE 2023',
     description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects.`,
     children: <></>,
     foto: ['/assets/images/educare-landing.png'],
   },
   {
+    identify: 'educare',
     title: 'Website EDUCARE 2023',
     description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects.`,
     children: <></>,
     foto: ['/assets/images/educare-landing.png'],
   },
   {
+    identify: 'educare',
     title: 'Website EDUCARE 2023',
     description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects.`,
     children: <></>,
     foto: ['/assets/images/educare-landing.png'],
   },
   {
+    identify: 'educare',
     title: 'Website EDUCARE 2023',
     description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects.`,
     children: <></>,
