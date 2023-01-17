@@ -19,7 +19,7 @@ export interface ExperienceDescriptionProps {
   'PERAK 2023': React.ReactNode
   'BETIS 2023': React.ReactNode
   'EDUCARE 2023': React.ReactNode
-  'PEMIRA 2023': React.ReactNode
+  'PEMIRA 2022': React.ReactNode
   'Open House Fasilkom UI 2022': React.ReactNode
   'BEM Fasilkom UI 2022': React.ReactNode
   'OKK UI 2022': React.ReactNode

@@ -6,7 +6,7 @@ export const WorkExperience: React.FC = () => (
   <div className="mx-8 mb-8 flex flex-col items-center ">
     <div className="max-w-[1800px] w-full">
       <div className="flex flex-col">
-        <TitleHeading> Experience </TitleHeading>
+        <TitleHeading> Experiences </TitleHeading>
         <div className="flex flex-col gap-y-8">
           {WORK_EXPERIENCE.map(
             ({ logo, alt, job, workplace, interval, stack }, key) => (
