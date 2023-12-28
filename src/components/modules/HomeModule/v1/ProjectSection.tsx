@@ -1,5 +1,5 @@
 import { ProjectCard, TitleHeading } from '@elements'
-import { PROJECT_DATA } from './constant'
+import { PROJECT_DATA } from '../constant'
 
 export const ProjectSection: React.FC = () => (
   <div className="mx-8 mb-8 flex flex-col items-center ">

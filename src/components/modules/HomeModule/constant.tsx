@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import { ProjectCardProps } from 'src/components/elements/ProjectCard/interface'
+import { ProjectCardProps } from 'src/components/elements/v1/ProjectCard/interface'
 import {
   ExperienceComponentProps,
   ExperienceDescriptionProps,
   SocialMediaProps,
 } from './interface'
 
-export const NAMA_TEXT: string = 'Alvaro Austin'
+export const NAME: string = 'Alvaro Austin'
 
 export const DESCRIPTION_TEXT: string =
   'Inquisitive, energetic, skilled and knowledgeable computer science student with extensive knowledge of programming. Seeking to leverage solid skills in collaboration and communication. A committed programmer with the intention to contribute my expertise to be a dependable team member. Excited to find opportunities to improve myself.'
@@ -232,42 +232,42 @@ export const EXPERIENCE_DESCRIPTION: ExperienceDescriptionProps = {
 export const PROJECT_DATA: ProjectCardProps[] = [
   {
     identify: 'educare',
-    title: 'Website EDUCARE 2023',
-    description: `This website is created using Next.js and Django Rest Framework as the frontend and backend respectively. My role as Vice Person In Charge (VPIC) is to lead, guide, and control the projects `,
+    title: 'EDUCARE 2023',
+    description: `Website for software engineers enthusiast.`,
     children: <></>,
     foto: ['/assets/images/educare-landing.png'],
   },
   {
     identify: 'betis',
-    title: 'Website BETIS 2023',
-    description: `Similar with Educare, it uses the same tech stack and I am responsible for managing staffs and creating pages for BETIS 2023. I'm working in both frontend and backend to utilize so users can enroll for BETIS Fasilkom UI. `,
+    title: 'BETIS 2023',
+    description: `A free platform for students aiming for state university admission.`,
     children: <></>,
     foto: ['/assets/images/betis-landing.png'],
   },
   {
     identify: 'open-house',
-    title: 'Website Open House Fasilkom UI 2023',
-    description: `For this website, I'm responsible for making features such at hero, testimony, FAQ and Wall of Fame sections. Through this opportunities, I learn a lot. `,
+    title: 'Open House CS UI 2022',
+    description: `Website endorsing Open House Fasilkom UI 2022`,
     children: <></>,
     foto: ['/assets/images/oh-landing.png'],
   },
   {
     identify: 'okk',
-    title: 'Website OKK UI 2022',
+    title: 'OKK UI 2022',
     description: `OKK UI is a really popular event done by Univeristy of Indonesia commitees. For this website we used MERN stack to develop our website. My job is to deal with front end and integrating backend`,
     children: <></>,
     foto: ['/assets/images/okk-landing.png'],
   },
   {
     identify: 'pemira',
-    title: 'Website PEMIRA 2022',
+    title: 'PEMIRA 2022',
     description: `Our job is to make e-voting for Fasilkom UI students to vote for new candidate of BEM Fasilkom UI. NestJs and Next.Js were used as stack. I managed both frontend and backend to make e-voting feature. `,
     children: <></>,
     foto: ['/assets/images/pemira-landing.png'],
   },
   {
     identify: 'bem',
-    title: 'Website BEM Fasilkom UI 2022',
+    title: 'BEM Fasilkom UI 2022',
     description: `Bunch of projects were created and mainly used React JS and Next.js for frontend and DRF and Golang for Backend. In this organization I tried both frontend and backend. `,
     children: <></>,
     foto: ['/assets/images/bem-landing.png'],

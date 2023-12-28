@@ -1,8 +1,8 @@
 import { Button, Modal } from '@elements'
 import Image from 'next/image'
 import { useState } from 'react'
-import { EXPERIENCE_DESCRIPTION } from './constant'
-import { ExperienceComponentProps } from './interface'
+import { EXPERIENCE_DESCRIPTION } from '../constant'
+import { ExperienceComponentProps } from '../interface'
 
 export const ExperienceComponent: React.FC<ExperienceComponentProps> = ({
   logo,

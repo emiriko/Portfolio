@@ -1,5 +1,5 @@
 import { TitleHeading } from '@elements'
-import { WORK_EXPERIENCE } from './constant'
+import { WORK_EXPERIENCE } from '../constant'
 import { ExperienceComponent } from './ExperienceComponent'
 
 export const WorkExperience: React.FC = () => (

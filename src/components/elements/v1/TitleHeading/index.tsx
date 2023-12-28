@@ -5,9 +5,7 @@ export const TitleHeading: React.FC<TitleHeadingProps> = ({
   className,
   children,
 }) => (
-  <h1
-    className={`md:text-7xl min[426px]:text-6xl min[320px]:text-5xl text-4xl font-bold text-deepblue md:text-left text-center my-8 ${className}`}
-  >
+  <h1 className="relative text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
     {' '}
     {children}{' '}
   </h1>
