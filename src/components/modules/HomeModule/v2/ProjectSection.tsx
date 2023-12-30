@@ -8,7 +8,7 @@ export const ProjectSection = () => {
   const { width } = useWindowSize()
 
   return (
-    <div className="flex flex-col gap-x-8 gap-y-8" id="projects">
+    <div className="flex flex-col gap-x-8 gap-y-8 relative" id="projects">
       <div className="w-full flex sm:flex-row flex-col gap-x-8 justify-between sm:items-center">
         <div className="flex gap-x-4 sm:w-3/5 w-full items-center">
           <h1 className="text-white text-4xl font-bold"> Projects </h1>

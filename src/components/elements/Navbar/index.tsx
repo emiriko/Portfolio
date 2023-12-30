@@ -17,7 +17,7 @@ export const Navbar = () => {
               height={50}
             />
           </div>
-          <h1 className="font-bold text-white"> Alvaro&apos; Portfolio </h1>
+          <h1 className="font-bold text-white"> Alvaro&apos;s Portfolio </h1>
         </div>
         <div className="flex gap-x-8">
           {MENU.map(({ label, href }, key) => (

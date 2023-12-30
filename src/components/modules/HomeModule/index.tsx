@@ -1,9 +1,18 @@
 import React from 'react'
-import { HeroSection, ProjectSection } from './v2'
+import {
+  AboutMeSection,
+  ContactSection,
+  HeroSection,
+  ProjectSection,
+  SkillSection,
+} from './v2'
 
 export const HomeModule: React.FC = () => (
-  <div className="flex flex-col gap-y-20 py-16">
+  <div className="flex flex-col gap-y-20 py-16 relative">
     <HeroSection />
     <ProjectSection />
+    <SkillSection />
+    <AboutMeSection />
+    <ContactSection />
   </div>
 )

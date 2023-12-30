@@ -1,7 +1,7 @@
 import { Button, Modal } from '@elements'
 import Image from 'next/image'
 import { useState } from 'react'
-import { EXPERIENCE_DESCRIPTION } from '../constant'
+// import { EXPERIENCE_DESCRIPTION } from '../constant'
 import { ExperienceComponentProps } from '../interface'
 
 export const ExperienceComponent: React.FC<ExperienceComponentProps> = ({
@@ -26,7 +26,8 @@ export const ExperienceComponent: React.FC<ExperienceComponentProps> = ({
         alt={alt}
         workplace={workplace}
       >
-        {(EXPERIENCE_DESCRIPTION as any)[workplace]}
+        <></>
+        {/* {(EXPERIENCE_DESCRIPTION as any)[workplace]} */}
       </Modal>
       <div className="flex gap-x-8">
         <div className="relative">

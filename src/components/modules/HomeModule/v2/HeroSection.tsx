@@ -11,7 +11,7 @@ export const HeroSection = () => (
         <div className="flex flex-col gap-y-2">
           <h1 className="text-white text-2xl font-bold">
             {' '}
-            Hello, I&apos;m, Alvaro,{' '}
+            Hello, I&apos;m Alvaro,{' '}
           </h1>
           <h1 className="text-primary text-3xl font-bold">
             {' '}
