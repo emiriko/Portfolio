@@ -22,6 +22,10 @@ body {
   font-family: 'Fira Code', monospace;
 }
 
+body.disable-scroll {
+  overflow: hidden;
+}
+
 blockquote {
   display: block;
   padding: 15px 25px 15px 60px;
@@ -79,4 +83,16 @@ blockquote em {
 
 blockquote.blockquote {
   border-left-color: #3d80bb;
+}
+
+.slick-list {
+  margin: 0 -5px;
+  display: flex;
+}
+.slick-slide > div {
+  padding: 0 5px;
+}
+
+.slick-dots li button:before {
+  color: #98c379 !important;
 }

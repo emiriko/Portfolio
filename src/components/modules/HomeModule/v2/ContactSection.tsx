@@ -10,24 +10,24 @@ export const ContactSection: React.FC = () => (
       </h1>
       <span className="border-t-2 border-blue-max w-full"> </span>
     </div>
-    <div className="flex gap-8">
+    <div className="flex gap-8 md:flex-row flex-col">
       <p className="text-justify break-all break-words">
         {' '}
         Thank you for taking the time to explore my portfolio! I&apos;d love to
         connect and discuss opportunities further. Feel free to reach out to me
-        through any of the channels on the right.
+        through any of the channels on this section.
         <br /> <br />
         I&apos;m available for discussions, inquiries about potential
         collaborations, or simply to chat about all things tech. Don&apos;t
         hesitate to drop me a message or connect through any of these platforms.
         I&apos;ll do my best to get back to you promptly!
       </p>
-      <div className="py-3 border border-gray flex-col justify-start items-start gap-2 inline-flex h-fit">
-        <div className=" px-4 justify-start items-start inline-flex">
+      <div className="border border-gray flex-col justify-start items-start gap-3 inline-flex h-fit">
+        <div className=" px-4 pt-3 justify-start items-start inline-flex">
           <h2 className="text-white text-base font-bold"> React out to me! </h2>
         </div>
-        <div className="w-full border border-gray"></div>
-        <div className="px-4 py-2 flex flex-col gap-4">
+        <div className="w-full border border-gray" />
+        <div className="px-4 pb-3 flex flex-col gap-4">
           {socialMedia.map(({ name, href, icon, username }, key) => (
             <div key={key} className="flex items-center space-x-2">
               {<i> {icon} </i>}

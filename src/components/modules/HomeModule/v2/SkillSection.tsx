@@ -1,4 +1,4 @@
-import { SkillBox } from 'src/components/elements/v2/SkillBox'
+import { SkillBox } from '@elements'
 import { SKILL } from '../constant'
 import Image from 'next/image'
 

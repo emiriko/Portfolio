@@ -1,10 +1,10 @@
 import { Button, TitleHeading } from '@elements'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ABOUT_DESCRIPTION, ALT_PIC, URL_CV, URL_PIC } from './constant'
-import { TechStack } from './TechStack'
+import { ABOUT_DESCRIPTION, ALT_PIC, URL_CV, URL_PIC } from '../constant'
+import { TechStack } from '../../../elements/v1'
 
-export const AboutModule: React.FC = () => (
+export const HeroSection: React.FC = () => (
   <div
     className="flex flex-col items-center mx-8 relative mt-60 mb-16"
     id="about"

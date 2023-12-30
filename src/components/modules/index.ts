@@ -1,3 +1,3 @@
 export * from './HomeModule'
-export * from './HomeModule/v1/AboutModule'
-export * from './HomeModule/v1/ProjectModule'
+export * from './AboutModule'
+export * from './ProjectModule'

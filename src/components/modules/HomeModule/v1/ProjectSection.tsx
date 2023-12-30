@@ -7,19 +7,17 @@ export const ProjectSection: React.FC = () => (
       <div className="flex flex-col">
         <TitleHeading> Projects </TitleHeading>
         <div className="flex flex-wrap gap-x-8 md:justify-around justify-center gap-y-8">
-          {PROJECT_DATA.map(
-            ({ identify, title, description, foto, children }, key) => (
-              <ProjectCard
-                identify={identify}
-                title={title}
-                description={description}
-                foto={foto}
-                key={key}
-              >
-                {children}
-              </ProjectCard>
-            )
-          )}
+          {PROJECT_DATA.map(({ identify, title, description, foto }, key) => (
+            <ProjectCard
+              identify={identify}
+              title={title}
+              description={description}
+              foto={foto}
+              key={key}
+            >
+              <> </>
+            </ProjectCard>
+          ))}
         </div>
       </div>
     </div>

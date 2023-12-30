@@ -1,8 +1,8 @@
 import { Button } from '@elements'
 import Image from 'next/image'
 import Link from 'next/link'
-import { TECH_STACK } from './constant'
-import { TechStackComponentProps } from './interface'
+import { TECH_STACK } from '../../../modules/AboutModule/constant'
+import { TechStackComponentProps } from '../../../modules/AboutModule/interface'
 
 export const TechStack: React.FC<TechStackComponentProps> = ({ className }) => (
   <div className={`gap-y-8 ${className}`}>

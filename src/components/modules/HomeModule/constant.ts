@@ -1,4 +1,3 @@
-import { ProjectCardProps } from 'src/components/elements/v1/ProjectCard/interface'
 import { ExperienceComponentProps, SocialMediaProps } from './interface'
 
 export const NAME: string = 'Alvaro Austin'
@@ -84,42 +83,55 @@ export const WORK_EXPERIENCE: ExperienceComponentProps[] = [
   },
 ]
 
-export const PROJECT_DATA: ProjectCardProps[] = [
+export const PROJECT_DATA = [
   {
-    identify: 'educare',
-    title: 'EDUCARE 2023',
-    description: `Website for software engineers enthusiast.`,
-    foto: ['/assets/images/educare-landing.png'],
-  },
-  {
-    identify: 'betis',
-    title: 'BETIS 2023',
-    description: `A free platform for students aiming for state university admission.`,
-    foto: ['/assets/images/betis-landing.png'],
-  },
-  {
-    identify: 'open-house',
-    title: 'Open House CS UI 2022',
-    description: `Website endorsing Open House Fasilkom UI 2022`,
-    foto: ['/assets/images/oh-landing.png'],
+    identify: 'bem',
+    title: 'BEM Fasilkom UI',
+    description: `Website for the Computer Science Student Executive Board`,
+    foto: ['/assets/images/bem-landing.png'],
+    stack: ['React, Next.js, DRF, Go'],
   },
   {
     identify: 'okk',
-    title: 'OKK UI 2022',
-    description: `OKK UI is a really popular event done by Univeristy of Indonesia commitees. For this website we used MERN stack to develop our website. My job is to deal with front end and integrating backend`,
+    title: 'OKK UI',
+    description: `Orientation website to familiarize incoming University of Indonesia students with campus life and resources`,
     foto: ['/assets/images/okk-landing.png'],
+    stack: ['T3 App'],
+  },
+  {
+    identify: 'ichall',
+    title: 'I-Challenge',
+    description: `An annual event organized by the Chemical Engineering Student Association of Brawijaya University.`,
+    foto: ['/assets/images/ichall-landing.png'],
+    stack: ['Next.js', 'DRF'],
+  },
+  {
+    identify: 'educare',
+    title: 'EDUCARE',
+    description: `Website for software engineers enthusiast.`,
+    foto: ['/assets/images/educare-landing.png'],
+    stack: ['Next.js', 'DRF'],
+  },
+  {
+    identify: 'betis',
+    title: 'BETIS',
+    description: `A free platform for students aiming for state university admission.`,
+    foto: ['/assets/images/betis-landing.png'],
+    stack: ['Next.js', 'DRF'],
+  },
+  {
+    identify: 'open-house',
+    title: 'Open House CS UI',
+    description: `Website endorsing Open House Fasilkom UI 2022`,
+    foto: ['/assets/images/oh-landing.png'],
+    stack: ['Next.js', 'NestJS'],
   },
   {
     identify: 'pemira',
-    title: 'PEMIRA 2022',
-    description: `Our job is to make e-voting for Fasilkom UI students to vote for new candidate of BEM Fasilkom UI. NestJs and Next.Js were used as stack. I managed both frontend and backend to make e-voting feature. `,
+    title: 'PEMIRA CS UI',
+    description: `Website for the Student Executive Board Election`,
     foto: ['/assets/images/pemira-landing.png'],
-  },
-  {
-    identify: 'bem',
-    title: 'BEM Fasilkom UI 2022',
-    description: `Bunch of projects were created and mainly used React JS and Next.js for frontend and DRF and Golang for Backend. In this organization I tried both frontend and backend. `,
-    foto: ['/assets/images/bem-landing.png'],
+    stack: ['Next.js, NestJS'],
   },
 ]
 
