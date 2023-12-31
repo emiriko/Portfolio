@@ -1,4 +1,8 @@
+import { Button } from '@elements'
 import Image from 'next/image'
+import Link from 'next/link'
+import { FaExternalLinkAlt } from 'react-icons/fa'
+import { URL_CV } from '../constant'
 
 export const HeroSection: React.FC = () => (
   <div className="flex flex-col gap-x-8 gap-y-8 relative" id="about">
@@ -30,6 +34,12 @@ export const HeroSection: React.FC = () => (
           my fresh perspective while absorbing invaluable insights and
           mentorship.
         </p>
+        <Link href={URL_CV} target="_blank" rel="noreferrer">
+          <Button icon={<FaExternalLinkAlt className="w-3 h-3 font-bold" />}>
+            {' '}
+            Review CV{' '}
+          </Button>
+        </Link>
       </div>
       <Image
         src={'/assets/images/formal.png'}

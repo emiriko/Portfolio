@@ -1,7 +1,7 @@
 import { TechStackProps } from './interface'
 
 export const URL_CV: string =
-  'https://docs.google.com/document/d/1xgvwySOpI_65RMAPcY_YEb49E-zEvtbhZItHfwxG8RI/edit?usp=sharing'
+  'https://docs.google.com/document/d/1omsQyNm0qcrr5CL_4yK5J2S4-GEpbJdaj9XxYgtex1E/edit?usp=sharing'
 export const URL_PIC: string = '/assets/images/ProfilePict2.jpg'
 export const ALT_PIC: string = 'ProfileAbout'
 
