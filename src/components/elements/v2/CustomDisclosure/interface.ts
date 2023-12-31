@@ -1,4 +1,5 @@
 export interface CustomDisclosureProps {
-  headline: string
+  company: string
+  role: string
   children: React.ReactNode
 }

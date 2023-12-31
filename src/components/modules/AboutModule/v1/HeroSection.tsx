@@ -1,7 +1,7 @@
 import { Button, TitleHeading } from '@elements'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ABOUT_DESCRIPTION, ALT_PIC, URL_CV, URL_PIC } from '../constant'
+import { ALT_PIC, URL_CV, URL_PIC } from '../constant'
 import { TechStack } from '../../../elements/v1'
 
 export const HeroSection: React.FC = () => (
@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => (
       <TitleHeading> About Me </TitleHeading>
       <div className="flex md:flex-row flex-col-reverse w-full gap-8">
         <div className="md:w-1/2 flex flex-col gap-y-8">
-          {ABOUT_DESCRIPTION}
+          {/* {ABOUT_DESCRIPTION} */}
           <Link href={URL_CV} target={'_blank'}>
             <Button
               className="w-full md:w-fit"

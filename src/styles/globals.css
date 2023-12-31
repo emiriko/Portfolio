@@ -87,10 +87,11 @@ blockquote.blockquote {
 
 .slick-list {
   margin: 0 -5px;
-  display: flex;
+  display: grid;
 }
 .slick-slide > div {
   padding: 0 5px;
+  height: 100%;
 }
 
 .slick-dots li button:before {
